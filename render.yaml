@@ -51,6 +51,7 @@ services:
         fromDatabase:
           name: n8n-db
           property: user
+      - fromGroup: n8n_env
 
 databases:
   - name: n8n-db
